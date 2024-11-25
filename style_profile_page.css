@@ -1,0 +1,228 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align:center;
+}
+
+.nav-bar{
+    background-color: #171717;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.nav-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links{
+    display: flex;
+    
+}
+
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.btn{
+    background-color:skyblue;
+    color: #fff;
+    border: black;
+    box-shadow: 10px 5px 5px black;    
+}
+
+.page-content{
+    display: flex;
+}
+/*User-Card Section*/
+.user-card{
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+}
+
+.top-row{
+    border:  1px solid;
+    background-color: rgb(70, 206, 233);
+    height: 100px;
+    width: 400px;
+}
+
+.bottom-row{
+    border: 1px solid;
+    background-color: rgb(249, 247, 245);
+    padding: 20px;
+    width: 360px;
+}
+
+.profile-image {
+    position:relative;
+    top: -40px;
+    left: -30%;
+   
+}
+
+.profile-image img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.profile-info {
+    text-align: left;
+    position:sticky;
+    
+}
+
+.profile-info img{
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.profile-info a {
+    color: #009688;
+    text-decoration: none;
+}
+
+
+/*Education Section*/
+.Education-Tab{
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.top-row2{
+    border:  1px solid;
+    background-color: rgb(108, 105, 105);
+    height: 50px;
+    width: 400px;
+    color: #fff;
+    text-align: start;
+    text-indent: 10px;
+    
+}
+
+.bottom-row2{
+    border: 1px solid;
+    background-color: rgb(249, 247, 245);
+    width: 400px;
+    text-align: start;
+    text-indent: 10px;  
+}
+
+/*Connection Request Section*/
+.Requests{
+    flex: 1;
+    
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.top-row3{
+    border:  1px solid;
+    background-color: rgb(108, 105, 105);
+    height: 40px;
+    width: 200px;
+    text-align: start;
+    text-indent: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    
+}
+
+.circle {
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 2px;
+  }
+
+.bottom-row3{
+    border: 1px solid;
+    background-color: rgb(249, 247, 245);
+    width: 200px;
+    
+}
+
+.request-sender p{
+    display:flex;
+    align-items: center;
+    margin-left: 5px;
+    
+}
+
+.request-sender img{
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 20px;
+}
+
+
+
+
+/*Your Connections Section*/
+.Connections{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.top-row4{
+    border:  1px solid;
+    background-color: rgb(108, 105, 105);
+    height: 40px;
+    width: 200px;
+    text-align: start;
+    text-indent: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    
+}
+
+.circle {
+    display:inline-block;
+    width: 50px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 2px;
+  }
+
+.bottom-row4{
+    border: 1px solid;
+    background-color: rgb(249, 247, 245);
+    width: 200px;
+    
+}
+
+.request-sender p{
+    display:flex;
+    align-items: center;
+    margin-left: 5px;
+    
+}
+
+.request-sender img{
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 20px;
+}
